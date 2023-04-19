@@ -8,6 +8,7 @@ body {
     color: white;
     font-weight: bold;
     font-size: 25px;
+    margin-top: 10px;
 }
 
 h1 {
@@ -25,9 +26,9 @@ button {
     border-radius: 2px;
 }
 
-#card-btn {
+/* #card-btn {
     margin-top: 5px;
-}
+} */
 
 #message-el {
     margin-top: 20px;
