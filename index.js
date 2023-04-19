@@ -14,7 +14,7 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 let playerEl = document.getElementById("player-el")
-playerChips.El.innerHTML = player.name + ": $" + player.chips
+playerEl.innerHTML = player.name + ": $" + player.chips
 
 function getRandomCard() {
     let randomNum = Math.floor(Math.random()*13) + 1
