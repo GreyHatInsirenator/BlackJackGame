@@ -39,8 +39,9 @@ function startGame() {
 function renderGame() {
 
     cardsEl.innerHTML = "Cards: "
+    
     for (let i = 0; i < cards.length; i++) {
-        console.log(cardsEl.innerHTML += cards[i] + " ")
+        cardsEl.innerHTML += cards[i] + " "
     }
 
     sumEl.innerHTML = "Sum: " + sum
