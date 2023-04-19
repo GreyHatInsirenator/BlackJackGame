@@ -39,7 +39,7 @@ function startGame() {
 function renderGame() {
 
     cardsEl.innerHTML = "Cards: "
-    
+
     for (let i = 0; i < cards.length; i++) {
         cardsEl.innerHTML += cards[i] + " "
     }
@@ -48,6 +48,8 @@ function renderGame() {
 
     if (sum <= 20) {
         message ="Do you want to draw a new card?"
+        isAlive = true
+
     } else if (sum === 21) {
         message="Wohoo! You've got Blackjack!"
         hasBlackJack = true
