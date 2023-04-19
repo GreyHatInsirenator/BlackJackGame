@@ -40,7 +40,7 @@ function renderGame() {
 
     cardsEl.innerHTML = "Cards: "
     for (let i = 0; i < cards.length; i++) {
-        cardsEl.innerHTML += cards[i] + " "
+        return cardsEl.innerHTML += cards[i] + " "
     }
 
     sumEl.innerHTML = "Sum: " + sum
